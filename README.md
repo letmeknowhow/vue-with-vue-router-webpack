@@ -1,6 +1,6 @@
 # vue-vueRouter-webpack-example
 
-> Example using [vue-loader](https://github.com/vuejs/vue-loader) with [Webpack](http://webpack.github.io).
+> Example using Vue.
 
 ## Setup
 
@@ -49,5 +49,10 @@ npm run build
     	  └─ img 		# 图片资源
 </pre>
 
-
-For detailed explanation on how things work, read the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 技术栈
+``` bash
+vue
+webpack
+vuex
+vue-router
+```
