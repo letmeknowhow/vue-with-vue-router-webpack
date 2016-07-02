@@ -17,5 +17,6 @@ export default new Vuex.Store({
     meals,
     //...other modules
   },
-  middlewares: process.env.NODE_ENV !== 'production' ? myMiddleware : myMiddleware
+  middlewares: process.env.NODE_ENV !== 'production' ? myMiddleware : myMiddleware,
+  strict: process.env.NODE_ENV !== 'production'
 });

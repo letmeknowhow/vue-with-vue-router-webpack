@@ -15,8 +15,8 @@ config.plugins = (config.plugins || []).concat([
     compress: {
       warnings: false
     }
-  }),
-  new webpack.optimize.OccurenceOrderPlugin()
+  })
+  //new webpack.optimize.OccurenceOrderPlugin()
 ])
 
-module.exports = config
+module.exports = config;
