@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import VueAsyncData from 'vue-async-data';
 import VueResource from 'vue-resource';
 import App from './app.vue';
 import routerMap from './router';
@@ -9,7 +8,6 @@ import store from './vuex/store';
 
 Vue.use(VueResource);
 Vue.use(VueRouter);
-Vue.use(VueAsyncData);
 
 
 // filter
