@@ -1,16 +1,16 @@
 {
-  "name": "vue-vueRouter-webpack-example",
+  "name": "vue-with-vuerouter-webpack",
   "version": "1.0.0",
-  "description": "vue-vueRouter-webpack-example",
+  "description": "vue-with-vuerouter-webpack",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --host 0.0.0.0 --config build/webpack.dev.config.js",
     "build": "webpack --progress --hide-modules --config build/webpack.prod.config.js"
   },
   "dependencies": {
-    "vue": "^1.0.0",
-    "vue-resource": "^0.1.17",
-    "vue-router": "^0.7.7",
+    "vue": "^1.0.26",
+    "vue-resource": "^0.9.3",
+    "vue-router": "^0.7.13",
     "vuex": "^0.8.2"
   },
   "devDependencies": {
@@ -44,5 +44,5 @@
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   },
-  "author": "hilongjw"
+  "author": "Niu xiaoyu"
 }
