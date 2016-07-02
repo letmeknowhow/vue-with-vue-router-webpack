@@ -12,27 +12,17 @@
     asyncData: function(resolve, reject) {
       var self = this;
       setTimeout(function() {
-        var lists = JSON.parse(localStorage.lists);
-        var cc = Math.round(Math.random() * (lists.length - 1));
-        resolve({
-          item: lists[cc]
-        })
-
-
+        self.reAsi();
+        resolve();
       }, 1000)
     },
     computed: {
-      
+
     },
     methods: {
       goBack: function (e) {
         history.go(-1);
       },
-//      reAsi: function () {
-//        var lists = JSON.parse(localStorage.lists);
-//        var cc = Math.round(Math.random() * (lists.length - 1));
-//        this.$data.item = lists[cc];
-//      }
 
     },
     vuex: {

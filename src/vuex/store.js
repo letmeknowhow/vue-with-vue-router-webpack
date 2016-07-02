@@ -20,7 +20,7 @@ const state = {
 
 const mutations = {
   REASI (state) {
-    const lists = JSON.parse(localStorage.lists);
+    const lists = state.options;
     const cc = Math.round(Math.random() * (lists.length - 1));
     state.selected = lists[cc];
   },

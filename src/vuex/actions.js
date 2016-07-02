@@ -8,7 +8,7 @@ export const reAsiAction = function ({ dispatch }) {
   dispatch('REASI')
 };
 
-export const addOptionAction = function ({ dispatch, item }) {
+export const addOptionAction = function ({ dispatch }, item) {
   dispatch('ADDOPTION', item);
 };
 
