@@ -1,3 +1,9 @@
+/**
+*  Class: asi
+*  Author: Niu Xiaoyu
+*  Date: 16/7/2.
+*  Description: 在备选列表中随机选择一项
+*/
 <script>
   import { reAsiAction } from '../vuex/actions';
   import { getSelected } from '../vuex/getters';

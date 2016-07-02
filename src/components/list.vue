@@ -1,3 +1,10 @@
+/**
+*  Class: list
+*  Author: Niu Xiaoyu
+*  Date: 16/7/2.
+*  Description: 展示意向列表
+*/
+
 <script>
   import { addOptionAction } from '../vuex/actions';
   import { getOptions } from '../vuex/getters';

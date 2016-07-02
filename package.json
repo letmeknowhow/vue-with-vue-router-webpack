@@ -11,7 +11,8 @@
     "vue": "^1.0.26",
     "vue-resource": "^0.9.3",
     "vue-router": "^0.7.13",
-    "vuex": "^0.8.2"
+    "vuex": "^0.8.2",
+    "keymirror": "^0.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",
