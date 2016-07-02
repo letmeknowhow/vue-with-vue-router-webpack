@@ -37,6 +37,11 @@ npm run build
     ├─components       # 组件
     │      index.vue
     │
+    ├─vuex             # vuex相关
+    │      actions.js
+    │      getters.js
+    │      store.js
+    │    
     └─assets             
           │            
 	      │
