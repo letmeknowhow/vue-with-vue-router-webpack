@@ -1,9 +1,10 @@
-var Vue = require('vue')
-var VueRouter = require('vue-router')
-var VueAsyncData = require('vue-async-data')
-var VueResource = require('vue-resource')
-var App = require('./app.vue')
-var routerMap = require('./router')
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import VueAsyncData from 'vue-async-data';
+import VueResource from 'vue-resource';
+import App from './app.vue';
+import routerMap from './router';
+import store from './vuex/store';
 
 
 Vue.use(VueResource);
@@ -12,22 +13,22 @@ Vue.use(VueAsyncData);
 
 
 // filter
-var filter = require('./filter');
+import filter from './filter';
 
 Object.keys(filter).forEach(function(k) {
   Vue.filter(k, filter[k]);
 });
 
 //directive
-var directive = require('./directive')
+import directive from './directive';
 
 Object.keys(directive).forEach(function(k) {
   Vue.directive(k, directive[k]);
 });
 
 
-var router = new VueRouter()
+const router = new VueRouter();
 
-routerMap(router)
-
-router.start(App, 'app')
+routerMap(router);
+App.store = store;
+router.start(App, 'app');
